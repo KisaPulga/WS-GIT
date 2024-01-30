@@ -1,9 +1,7 @@
-function changeColors() {
+function changeColorsAutomatically() {
     const body = document.querySelector('body');
-
-
     body.style.backgroundColor = getRandomColor();
-
+    setTimeout(changeColorsAutomatically, 5000); // Change automatique toutes les 5 secondes
 }
 
 function getRandomColor() {
@@ -22,3 +20,6 @@ function highlightBox(box) {
 function unhighlightBox(box) {
     box.style.boxShadow = 'none';
 }
+
+// Appel initial pour lancer le changement automatique des couleurs
+changeColorsAutomatically();
