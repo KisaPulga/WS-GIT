@@ -9,7 +9,7 @@
 <body>
 
     <header>
-        <h1>École CESI</h1>
+        <h1 id="main-title">École CESI</h1>
         <p>Bienvenue à l'école CESI</p>
     </header>
 
@@ -20,10 +20,24 @@
 
     <section class="effets">
         <h2>Effets et Interactions</h2>
-        <button id="button" onclick="changeColor()">Changer la couleur</button>
+        <button id="button" onclick="changeColors()">Changer la couleur</button>
+    </section>
+
+    <section class="formation">
+        <div class="box" onmouseover="highlightBox(this)" onmouseout="unhighlightBox(this)">
+            <h3>Ingénieur Informatique</h3>
+            <p>Présentation de la formation Ingénieur Informatique...</p>
+        </div>
+        <div class="box" onmouseover="highlightBox(this)" onmouseout="unhighlightBox(this)">
+            <h3>Ingénieur BTP</h3>
+            <p>Présentation de la formation Ingénieur BTP...</p>
+        </div>
+        <div class="box" onmouseover="highlightBox(this)" onmouseout="unhighlightBox(this)">
+            <h3>Strasbourg</h3>
+            <p>Présentation de la ville de Strasbourg...</p>
+        </div>
     </section>
 
     <script src="script.js"></script>
 </body>
 </html>
-

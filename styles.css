@@ -12,6 +12,10 @@ header {
     text-align: center;
 }
 
+#main-title {
+    border-radius: 10px;
+}
+
 section {
     margin: 40px;
 }
@@ -22,4 +26,20 @@ button {
     cursor: pointer;
 }
 
-/* Ajoutez des styles supplémentaires selon vos préférences */
+.formation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
