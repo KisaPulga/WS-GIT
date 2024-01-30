@@ -10,10 +10,14 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    width: 92%;
+    border-radius: 15px;
+    margin: 0 auto; /* Centre horizontalement */
 }
 
+
 #main-title {
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 section {
@@ -36,7 +40,7 @@ button {
     padding: 20px;
     background-color: #333;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: box-shadow 0.3s;
 }
 

@@ -1,9 +1,9 @@
 function changeColors() {
     const body = document.querySelector('body');
-    const title = document.getElementById('main-title');
+
 
     body.style.backgroundColor = getRandomColor();
-    title.style.color = getRandomColor();
+
 }
 
 function getRandomColor() {
